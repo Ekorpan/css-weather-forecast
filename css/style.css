@@ -1,10 +1,14 @@
 *{transition: all .1s ease-in;
  font-style: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
- margin: auto;
+ 
+
  }
 
-html, body {
-    height: 100%;
+html {
+   height: 100%;
+   box-sizing: border-box;
+   margin:
+}
     
     
   }
@@ -18,11 +22,15 @@ header {
  	border: 10px  solid #2b81ac;
  	box-sizing: border-box;
  	color: #ffffff;	
+ 	margin: auto;
+ 	min-height: 100% 
  	
 }
 ul {
 	padding: 0; 
 	border: 5px solid #fff;
+	font-size: 0;
+	
 	
 	
 }
@@ -33,17 +41,18 @@ ul {
   	transform: translate(-50%,-50%);
   	margin: 0 auto;
   	left: 50%;
+  	
 }
 li {
  	display: inline-block;
  	border: 5px solid #fff;
- 	margin: 0 0 -4px -4px ;
  	box-sizing: border-box;
  	width: 100%;
  	line-height: 24px;
  	opacity: 1;
  	height: 160px;
  	position: relative;
+ 	font-size: 16px;
  	
  	
 }
